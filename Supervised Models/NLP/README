@@ -21,7 +21,8 @@ import os
 sys
 import time
 
-Twitter Developers API (make sure to create a new developers account): 
+*** Twitter Developers API (make sure to create a new developers account): ***
+
 access_token = "1058460791xxxxxxxxxxxxxxx"
 access_token_secret = "1058460791xxxxxxxxxxxxxxx"
 consumer_key = "1058460791xxxxxxxxxxxxxxx"
