@@ -4,7 +4,8 @@ Project Objective:
 Extract tweets for the 106th Grey Cup Held in Edmonton on November 25, 2018 and perform sentiment analysis 
 to indetify the sentiments classified into one of positive, negative or neutral tweet
 
-Two pronged approach to collect tweets: 
+Two pronged approach to collect tweets:
+
 Gathered tweets from  hashtag for Grey Cup - #greycup
 Gathered tweets with keywords - 'Grey Cup', 'GreyCup‘
 
@@ -12,12 +13,6 @@ All tweets were collected in JSON format and then converted to text in Jupyter N
 
 To run the code, include the following libraries in your notebook file (pip install <libarary name>):
 
-import re
-from textblob import TextBlob
-import csv 
-import pandas as pd
-import json
-import datetime as dt
-import os,sys
-import time
+import re, from textblob import TextBlob, import csv, import pandas as pd, import json
+import datetime as dt, import os, sys, import time
 
