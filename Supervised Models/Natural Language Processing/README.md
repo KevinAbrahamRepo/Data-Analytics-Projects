@@ -6,7 +6,7 @@ to indetify the sentiments classified into one of positive, negative or neutral 
 
 Two pronged approach to collect tweets:
 
-Gathered tweets from  hashtag for Grey Cup - #greycup
+Gathered tweets from  hashtag for Grey Cup - #greycup; 
 Gathered tweets with keywords - 'Grey Cup', 'GreyCup‘
 
 All tweets were collected in JSON format and then converted to text in Jupyter Notebook for analysis
