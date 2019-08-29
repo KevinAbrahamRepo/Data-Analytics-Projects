@@ -11,3 +11,6 @@ Before running the file, make sure to install the following libraries in Jupyter
 * import sklearn as sk
 * import seaborn as sns
 
+## Decision Tree:
+![Decision_Tree](https://user-images.githubusercontent.com/15803839/63983188-975d7b00-ca93-11e9-91cb-e1665e44c144.png)
+
