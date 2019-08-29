@@ -26,3 +26,12 @@ To run the code, include the following libraries in your notebook file (pip inst
 2. access_token_secret = "1058460791xxxxxxxxxxxxxxx"
 3. consumer_key = "1058460791xxxxxxxxxxxxxxx"
 4. consumer_secret = "1058460791xxxxxxxxxxxxxxx"
+
+# GeoMap:
+![Picture1](https://user-images.githubusercontent.com/15803839/63983541-26b75e00-ca95-11e9-888b-5edcb8eac43d.png)
+
+# Tweets WordCloud:
+![Picture2](https://user-images.githubusercontent.com/15803839/63983555-35057a00-ca95-11e9-870e-31070496988d.png)
+
+# Gameday Peak:
+![Picture3](https://user-images.githubusercontent.com/15803839/63983572-42baff80-ca95-11e9-8fc6-fb72068fe96c.png)
