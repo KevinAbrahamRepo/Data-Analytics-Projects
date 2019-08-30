@@ -1,4 +1,4 @@
-# Project Objective:
+# Natural Language Processing - #GreyCup:
 
 
 Extract tweets for the 106th Grey Cup Held in Edmonton on November 25, 2018 and perform sentiment analysis to indetify the sentiments classified into one of positive, negative or neutral tweet 
