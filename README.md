@@ -1,2 +1,18 @@
-# Big-Data-Analytics-Projects
-Big data manipulation and modelling projects
+# Data-Analytics-Projects
+
+Included in this repository are some interesting data manipulation and modelling projects that I worked on over the last year (Always looking to improve code further so any suggestions are welcome!). 
+
+## Projects using Supervised learning models: 
+All analysis was performed in **python (Jupyter Notebook)**
+1. Analysis on United Kingdoms road safety and traffic demographics dataset obtained from [UK Traffic Dataset - Kaggle](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) with the following key goals: 
+    * Identify common factors responsible for higher accident rates through various feature engineering techniques
+    * Carry out a restrospective study of the historical dataset and perform descriptive analytics using Tablaue, Power BI and Excel Power pivot
+    * Perform hyper-paramter tuning using [GridsearchCV](https://scikit-learn.org/stable/modules/grid_search.html) (scikit-learn python package) to enhance predictive power of several supervised learning models
+
+2. Analyze several thousand tweets collected using [Twitters Streaming API](http://docs.tweepy.org/en/v3.5.0/api.html) in **JSON** format to perform sentiment analysis on all tweets collected and classify them into sub categories for a more general consensus. The topic for this NLP project was the 106th **#Greycup/#greycup** held in Edmonton in November, 2018. Key analytic goals:
+    * Clean data pull and transformation for analysis in python
+    * Descriptive and time series analysis for insights 
+    * Predictive model to classify sentiment of a tweet by comparing few different supervised models
+   
+ 
+    
