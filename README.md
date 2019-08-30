@@ -1,6 +1,6 @@
 # Data-Analytics-Projects
 
-Included in this repository are some interesting data manipulation and modelling projects that I worked on over the last year. All analysis was performed in **python (Jupyter Notebook)** (Always looking to improve code further so any suggestions are welcome!).
+Included in this repository are some interesting data manipulation and modelling projects that I worked on over the last year. All analysis was performed in **python (Jupyter Notebook)** (*Always looking to improve code further so any suggestions are welcome!*).
 
 ## Projects using Supervised learning models: 
 
