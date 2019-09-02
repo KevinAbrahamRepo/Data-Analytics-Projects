@@ -17,10 +17,17 @@ Primary Analytic Goals:
 
 ![Picture2](https://user-images.githubusercontent.com/15803839/64131246-6764ef00-cd95-11e9-96a6-d323171a5bcc.png)
 
+### First point of impact: 
+![Picture7](https://user-images.githubusercontent.com/15803839/64131308-b874e300-cd95-11e9-8d63-5ac83dcf86f7.png)
+
 ![Picture3](https://user-images.githubusercontent.com/15803839/64131248-6a5fdf80-cd95-11e9-8194-0d01354566f9.png)
 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
+### recursive Feature Elimination with CV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
 
+### All Model Performance Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
+
+**Since I had a highly imbalanced dataset with the majority class comprising 85% of all records, I had to use other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC among others to determine the best model. Gaussian Naive Bayes performed marginally better for Recall scores than Logistic Regression. The descision tree based models performed relatively poorly overall. **
