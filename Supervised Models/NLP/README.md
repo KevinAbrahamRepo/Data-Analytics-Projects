@@ -1,7 +1,7 @@
 # Natural Language Processing - #GreyCup:
 
 
-For this mini project I extracted tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 and performed sentiment analysis to classify tweets into one of positive, negative or neutral 
+For this mini-project I extracted tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 and performed sentiment analysis to classify tweets into one of positive, negative or neutral 
 
 ### Use a two pronged approach to collect tweets:
 * Gathered tweets from hashtag for Grey Cup - **#greycup**
@@ -10,7 +10,7 @@ For this mini project I extracted tweets for the **106th Grey Cup** Held in Edmo
 *(My functions to collect tweets are based on [Alexander's Blog Post](https://galeascience.wordpress.com/2016/03/18/collecting-twitter-data-with-python/))*
 
 
-**Twitter Developers API (make sure to create a new developers account for TWITTER):**
+**You will require a developers account for TWITTER to retrieve keys/tokens:**
 
 1. access_token = "1058460791xxxxxxxxxxxxxxx"
 2. access_token_secret = "1058460791xxxxxxxxxxxxxxx"
@@ -41,3 +41,4 @@ For this mini project I extracted tweets for the **106th Grey Cup** Held in Edmo
 
 ### Tweet Sentiments using TextBlob: 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64128118-e1d84380-cd82-11e9-96f6-5ce7967f1a7c.png)
+
