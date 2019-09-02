@@ -1,7 +1,7 @@
 # Natural Language Processing - #GreyCup:
 
 
-Extract tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 and perform sentiment analysis to classify tweets into one of positive, negative or neutral for this subject 
+For this mini project I extracted tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 and performed sentiment analysis to classify tweets into one of positive, negative or neutral 
 
 ### Use a two pronged approach to collect tweets:
 * Gathered tweets from hashtag for Grey Cup - **#greycup**
@@ -35,8 +35,10 @@ Extract tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 
 3. Cup 
 4. cfl (Canadian football league)
 
-
 ### Gameday Tweets Frequency:
 ![Picture3](https://user-images.githubusercontent.com/15803839/63983572-42baff80-ca95-11e9-8fc6-fb72068fe96c.png) 
 
 **Most twitter activity was recorded on November 24 & 25, 2018**
+
+### Tweets Sentiment using TextBlob: 
+![]
