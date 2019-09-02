@@ -30,7 +30,9 @@ Primary Analytic Goals:
 ### All Model Performance Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
 
-**Since I had a highly imbalanced dataset with the majority class comprising 85% of all records, I had to use other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC among others to determine the best model. Gaussian Naive Bayes performed marginally better for Recall scores than Logistic Regression. The descision tree based models performed relatively poorly overall.**
+**Working with a highly imbalanced dataset with the majority class constituting 85% of all records, I used other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC to determine the best model. Gaussian Naive Bayes performed marginally better for recall scores than Logistic Regression. The descision tree based models performed relatively poorly overall. The models can still be improved further through tuning parameters and possibly balancing target class.** 
+
+*[Metrics to measure model performance for an imbalanced dataset](https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba)*
 
 ### Implications from Findings:
 * Decrease emergency response times during *afternoon rush-hours (15-19) especially on Fridays*
