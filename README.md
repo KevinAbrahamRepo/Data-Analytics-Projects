@@ -6,7 +6,7 @@ Included in this repository are some interesting data manipulation and modelling
 
 1. Analysis on United Kingdoms road safety and traffic demographics dataset obtained from [UK Traffic Dataset - Kaggle](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) with the following key goals: 
     * Identify common factors responsible for higher accident rates through various feature engineering techniques
-    * Carry out a restrospective study of the historical dataset and perform descriptive analytics using **Tablaue, Power BI and Excel Power Pivot**
+    * Carry out a restrospective study of the historical dataset and perform descriptive analytics using **Tableau, Power BI and Excel Power Pivot**
     * Attempt to correct an Imbalanced target class using **SMOTE, Cluster Centroid, Tomek Links**
     * Perform hyper-paramter tuning using [GridsearchCV](https://scikit-learn.org/stable/modules/grid_search.html) (scikit-learn python package) to enhance predictive power of several supervised learning models (KNN, SVM, Naive Bayes, Logistic Regression, Random Forest ..
 
