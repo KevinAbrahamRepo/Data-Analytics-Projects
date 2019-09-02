@@ -24,10 +24,18 @@ Primary Analytic Goals:
 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
-### recursive Feature Elimination with CV - Logistic Regression:
+### Recursive Feature Elimination with CV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
 
 ### All Model Performance Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
 
-**Since I had a highly imbalanced dataset with the majority class comprising 85% of all records, I had to use other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC among others to determine the best model. Gaussian Naive Bayes performed marginally better for Recall scores than Logistic Regression. The descision tree based models performed relatively poorly overall. **
+**Since I had a highly imbalanced dataset with the majority class comprising 85% of all records, I had to use other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC among others to determine the best model. Gaussian Naive Bayes performed marginally better for Recall scores than Logistic Regression. The descision tree based models performed relatively poorly overall.**
+
+### Implications from Findings:
+* Decrease emergency response times during *afternoon rush-hours (15-19) especially on Fridays*
+* Allocate resources to investigate high density traffic points mapped above and identify new infrastructure needs to divert traffic from *dual-carriage ways*
+* Explore conditions of vehicles and casualties such as vehicle type, age of vehicles registered, pedestrian movements, etc. for policy makers
+* Adopt comprehensive distracted driving laws that increase penalties for drivers who commit traffic violations including aggressive overtaking which likely is also the reason for a majority of front end collisons. 
+
+
