@@ -47,5 +47,10 @@ For this mini-project I extracted tweets for the **106th Grey Cup** Held in Edmo
 
 
 ### Code:
-There are two versions of the code I worked on simultanously that I hope to eventually combine into one. Part 1 includes a more detailed approach to extracting and analysis the tweets. This also includes a few supervised models that I attempted to run to predict the sentiment of a tweet. While Part 2 includes some general explorartoy analysis.  
+There are two versions of the code I worked on simultanously that I hope to eventually combine into one. 
+* **Part 1** includes a more detailed approach to extracting and analysis the tweets. This also includes a few supervised models that I attempted to run to predict the sentiment of a tweet. 
+* **Part 2** includes some general explorartoy analysis. 
+
+All libaries used have been listed in each of the python code files.  
+
 
