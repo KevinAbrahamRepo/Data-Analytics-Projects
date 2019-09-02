@@ -19,7 +19,7 @@ For this mini-project I extracted tweets for the **106th Grey Cup** Held in Edmo
 
 *I referred to [this blog](https://medium.com/@jayeshsrivastava470/how-to-extract-tweets-from-twitter-in-python-47dd07f4e8e7) on instructions to get TWITTER API keys*
 
-Exploratory Analysis:
+## Exploratory Analysis:
 ### Library - Mapbox Python SDK:
 ![Picture1](https://user-images.githubusercontent.com/15803839/63983541-26b75e00-ca95-11e9-888b-5edcb8eac43d.png)
 **Top 3 Locations:**
@@ -44,4 +44,8 @@ Exploratory Analysis:
 
 ### Tweet Sentiments - TextBlob python library: 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64128118-e1d84380-cd82-11e9-96f6-5ce7967f1a7c.png)
+
+
+### Code:
+There are two versions of the code I worked on simultanously that I hope to eventually combine into one. Part 1 includes a more detailed approach to extracting and analysis the tweets. This also includes a few supervised models that I attempted to run to predict the sentiment of a tweet. While Part 2 includes some general explorartoy analysis.  
 
