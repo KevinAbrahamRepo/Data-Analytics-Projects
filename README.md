@@ -17,9 +17,6 @@ Included in this repository are some interesting data manipulation and modelling
     * Various descriptive and time series analysis for insights 
     * Predictive models to classify sentiment of a tweet (**textblob**) by comparing few different supervised models
  
- 
- 
-## Clustering models:
 
    
  
