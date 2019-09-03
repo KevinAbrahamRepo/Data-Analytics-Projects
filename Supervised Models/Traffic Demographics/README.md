@@ -4,7 +4,10 @@ For this project, the goal was to help provide recommendations to UK’s departm
 
 The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) 
 
-Primary Analytic Goals: 
+### Python Packages Used:
+* Scikit-learn, numpy, pandas, imblearn (imbalanced-learn)
+
+### Primary Analytic Goals: 
 1. Identify common factors responsible for higher accident rates through various feature engineering techniques
 2. Carry out a restrospective study of the historical dataset and perform descriptive analytics using Tableau, Power BI and Excel Power Pivot
 3. Attempt to correct an Imbalanced target class using SMOTE, Cluster Centroid, Tomek Links (**imblearn** python library)
@@ -24,7 +27,7 @@ Primary Analytic Goals:
 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
-### Recursive Feature Elimination with CV - Logistic Regression:
+## Recursive Feature Elimination with CV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
 
 ### All Model Performance Comparison:
