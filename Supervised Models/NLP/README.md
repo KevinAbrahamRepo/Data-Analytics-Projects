@@ -46,10 +46,13 @@ For this mini-project I extracted tweets for the **106th Grey Cup** Held in Edmo
 ![Picture4](https://user-images.githubusercontent.com/15803839/64128118-e1d84380-cd82-11e9-96f6-5ce7967f1a7c.png)
 
 
-### Code:
+### Code + Models Tested:
 There are two versions of the code I worked on simultanously that I hope to eventually combine into one. 
-* **Part 1** includes a more detailed approach to extracting and analysis the tweets. This also includes a few supervised models that I attempted to run to predict the sentiment of a tweet. 
-* **Part 2** includes some general explorartoy analysis. 
+* **Part 1** includes a more detailed approach to extracting and analysing the tweets. This also includes a few supervised models that I attempted to run to predict the sentiment of a tweet such as:
+  * Naive Bayes - 87% accuracy
+  * Support Vector Machine (Linear Kernel) - 95% accuracy
+  * Support Vector Machine (Polynomial Kernel) - 20% accuracy (will need to tune parameters further)
+* **Part 2** includes some general exploratory analysis. 
 
 All libaries used have been listed in each of the python code files.  
 
