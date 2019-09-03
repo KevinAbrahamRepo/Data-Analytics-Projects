@@ -27,6 +27,9 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
+### Road types that report most accidents: 
+![Picture8](https://user-images.githubusercontent.com/15803839/64207763-466ecd80-ce6b-11e9-908c-c52b625919aa.png)
+
 ## Recursive Feature Elimination with CV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
 
