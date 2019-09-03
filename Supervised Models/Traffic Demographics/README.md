@@ -38,9 +38,9 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 *[Metrics to measure model performance for an imbalanced dataset](https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba)*
 
 ### Implications from Findings:
-* Decrease emergency response times during *afternoon rush-hours (15-19) especially on Fridays*
-* Allocate resources to investigate high density traffic points mapped above and identify new infrastructure needs to divert traffic from *dual-carriage ways*
-* Explore conditions of vehicles and casualties such as vehicle type, age of vehicles registered, pedestrian movements, etc. for policy makers
-* Adopt comprehensive distracted driving laws that increase penalties for drivers who commit traffic violations including aggressive overtaking which likely is also the reason for a majority of front end collisons. 
+* Decrease emergency response times during **afternoon rush-hours (15-19) especially on Fridays**
+* Allocate resources to investigate **high density traffic points** mapped above and identify new infrastructure needs to divert traffic from **dual-carriage ways**
+* Explore conditions of vehicles and casualties such as **vehicle type, age of vehicles registered, pedestrian movements**, etc. for policy makers
+* Adopt comprehensive distracted driving laws that increase penalties for drivers who commit traffic violations including aggressive **overtaking** which likely is the reason for a majority of **front end** collisons reported in the plot above 
 
 
