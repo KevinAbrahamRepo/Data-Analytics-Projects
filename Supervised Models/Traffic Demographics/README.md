@@ -15,6 +15,9 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 
 *I referred to [resampling strategies post](https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets) to implement various strategies to work with an imbalanced target class*
 
+### Data Cleansing Steps:
+Please review 'Data_Cleansing_Steps' python file on how steps taken to prepare the data for descriptive analysis & modelling 
+
 ## Exploratory Data Analysis performed in Tableau/MS PowerBI:
 ![Picture1](https://user-images.githubusercontent.com/15803839/64131244-6469fe80-cd95-11e9-96da-4b3ea0a98278.png)
 
