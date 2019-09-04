@@ -22,6 +22,9 @@ For this mini-project I extracted tweets for the **106th Grey Cup** Held in Edmo
 
 *I referred to [this blog](https://medium.com/@jayeshsrivastava470/how-to-extract-tweets-from-twitter-in-python-47dd07f4e8e7) on instructions to get TWITTER API keys*
 
+### Data Cleansing Steps:
+Please review 'Data_Cleansing_Functions' python file for common functions used to prepare data for analysis + modelling 
+
 ## Exploratory Analysis:
 ### Library - Mapbox Python SDK:
 ![Picture1](https://user-images.githubusercontent.com/15803839/63983541-26b75e00-ca95-11e9-888b-5edcb8eac43d.png)
