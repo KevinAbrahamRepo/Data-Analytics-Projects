@@ -16,7 +16,7 @@ For more information on the individual projects including some interesting finds
 2. Analyze several thousand tweets collected using [Twitters Streaming API](http://docs.tweepy.org/en/v3.5.0/api.html) in **JSON** format to perform sentiment analysis and classify them into sub categories for a more general consensus. The topic for this NLP project was the 106th **#Greycup/#greycup** held in Edmonton in November, 2018. Key analytic goals:
     * Perform a clean data pull from Twitter and transform data for analysis in python (**Tweepy**)
     * Various descriptive and time series analysis for insights (**matplotlib (Basemap), Mapboxgl**)
-    * Build a predictive models to classify sentiment of a tweet (**textblob**)
+    * Build a predictive models to classify sentiment of a tweet (**Naive Bayes, SVM - Linear/Polynomial**)
  
 
    
