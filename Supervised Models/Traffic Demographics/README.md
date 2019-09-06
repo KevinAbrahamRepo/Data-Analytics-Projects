@@ -5,7 +5,7 @@ For this project, the goal was to help provide recommendations to UK’s departm
 The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) 
 
 ### Python Packages Used:
-* Scikit-learn, numpy, pandas, imblearn (imbalanced-learn)
+* Scikit-learn, numpy, pandas, imblearn (imbalanced-learn), seaborn
 
 ### Primary Analytic Goals: 
 1. Identify common factors responsible for higher accident rates through various feature engineering techniques
@@ -13,7 +13,7 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 3. Attempt to correct an Imbalanced target class using SMOTE, Cluster Centroid, Tomek Links (**imblearn** python library)
 4. Perform hyper-paramter tuning using *GridsearchCV* (**scikit-learn python** package) to enhance predictive power of several supervised learning models *(KNN, SVM, Naive Bayes, Logistic Regression, Random Forest, Gradient Boost)*
 
-*I referred to [resampling strategies post](https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets) to implement various strategies to work with an imbalanced target class*
+*Referred to [resampling strategies post](https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets) to implement various strategies to work with an imbalanced target class*
 
 ### Data Cleansing Steps:
 Please review 'Data_Cleansing_Steps' python file on steps taken to prepare the data for descriptive analysis & modelling 
@@ -39,7 +39,7 @@ Please review 'Data_Cleansing_Steps' python file on steps taken to prepare the d
 ### All Model Performance Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
 
-**Since the majority class constituted for roughly 85% of all records, I used other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC to determine the best model. Gaussian Naive Bayes performed marginally better for recall scores than Logistic Regression to show the ratio of correctly predicted positive observations. The descision tree based models (Random Forest, Gradient Boost) performed relatively poorly overall. The models can still be improved further through tuning parameters and possibly balancing target class further.** 
+**Since the majority class constituted for roughly 85% of all records, other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC were used to determine the best model. Gaussian Naive Bayes performed marginally better for recall scores than Logistic Regression to show the ratio of correctly predicted positive observations. The descision tree based models (Random Forest, Gradient Boost) performed relatively poorly overall. The models can still be improved further by balancing target class and tuning parameters.** 
 
 *[Metrics to measure model performance for an imbalanced dataset](https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba)*
 
