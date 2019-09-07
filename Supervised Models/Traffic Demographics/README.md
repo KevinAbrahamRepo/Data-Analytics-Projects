@@ -5,7 +5,7 @@ For this project, the goal was to help provide recommendations to UK’s departm
 The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) 
 
 ### Python Packages Used:
-* Scikit-learn, numpy, pandas, imblearn (imbalanced-learn), seaborn
+* Scikit-learn, numpy, pandas, imblearn (imbalanced-learn), seaborn, Matplotlib
 
 ### Primary Analytic Goals: 
 1. Identify common factors responsible for higher accident rates through various feature engineering techniques
@@ -16,21 +16,23 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 *Referred to [resampling strategies post](https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets) to implement various strategies to work with an imbalanced target class*
 
 ### Data Cleansing Steps:
-Please review 'Data_Cleansing_Steps' python file on steps taken to prepare the data for descriptive analysis & modelling 
+Please review **'Data_Cleansing_Steps'** python file on steps taken to prepare the data for descriptive analysis & modelling 
 
-## Exploratory Data Analysis performed in Tableau/MS PowerBI:
+
+## Exploratory Data Analysis Performed in Tableau/MS PowerBI:
+
 ![Picture1](https://user-images.githubusercontent.com/15803839/64131244-6469fe80-cd95-11e9-96da-4b3ea0a98278.png)
 
 ![Picture2](https://user-images.githubusercontent.com/15803839/64131246-6764ef00-cd95-11e9-96a6-d323171a5bcc.png)
 
-### First point of impact: 
+### First Point of Impact: 
 ![Picture7](https://user-images.githubusercontent.com/15803839/64131308-b874e300-cd95-11e9-8d63-5ac83dcf86f7.png)
 
 ![Picture3](https://user-images.githubusercontent.com/15803839/64131248-6a5fdf80-cd95-11e9-8194-0d01354566f9.png)
 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
-### Road types that report most accidents: 
+### Road Types that Report Most Accidents: 
 ![Picture8](https://user-images.githubusercontent.com/15803839/64207763-466ecd80-ce6b-11e9-908c-c52b625919aa.png)
 
 ## Recursive Feature Elimination with CV - Logistic Regression:
@@ -39,7 +41,9 @@ Please review 'Data_Cleansing_Steps' python file on steps taken to prepare the d
 ### All Model Performance Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
 
-**Since the majority class constituted for roughly 85% of all records, other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC were used to determine the best model. Gaussian Naive Bayes performed marginally better for recall scores than Logistic Regression to show the ratio of correctly predicted positive observations. The descision tree based models (Random Forest, Gradient Boost) performed relatively poorly overall. The models can still be improved further by balancing target class and tuning parameters.** 
+**Since the majority class constituted for roughly 85% of all records, other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC were used to determine the best model. *Gaussian Naive Bayes* performed marginally better for recall scores than Logistic Regression to show the ratio of correctly predicted positive observations. The descision tree based models (Random Forest, Gradient Boost) performed relatively poorly overall.**
+
+**NOTE: The results are lower than typical classification results, but this is primarily because of a highly imbalanced target class that expectedly introduces bias for the majority class while modelling. Each models can still be improved by balancing target class further and tuning model parameters.** 
 
 *[Metrics to measure model performance for an imbalanced dataset](https://towardsdatascience.com/what-metrics-should-we-use-on-imbalanced-data-set-precision-recall-roc-e2e79252aeba)*
 
