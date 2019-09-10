@@ -11,7 +11,7 @@ The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://ww
 1. Identify common factors responsible for higher accident rates through various feature engineering techniques
    * PCA, RFECV, Variance Threshold, RandomForest Feature Importance
 2. Carry out a restrospective study of the historical dataset and perform descriptive analytics using Tableau, Power BI and Excel Power Pivot to gain insights
-3. Attempt to correct an Imbalanced target class using SMOTE, Cluster Centroid, Tomek Links (**imblearn** python library)
+3. **Attempt to correct an Imbalanced target class** using SMOTE, Cluster Centroid, Tomek Links (**imblearn** python library)
    * Referred to [resampling strategies post](https://www.kaggle.com/rafjaa/resampling-strategies-for-imbalanced-datasets) to implement various strategies to work with an imbalanced target class
 4. Perform hyper-paramter tuning using *GridsearchCV* (**scikit-learn python** package) to optimize predictive power of several supervised learning models *(KNN, SVM, Naive Bayes, Logistic Regression, Random Forest, Gradient Boost)*
 
@@ -55,6 +55,7 @@ EDA was completed in Tableau/MS PowerBI**
 
 ### Optiomal Features Suggestion through RFECV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
+
 *About 30 features accounted for roughly 95%+ of all variations* 
 
 ### Top Features Identified (RFECV-Logistic Regression):
