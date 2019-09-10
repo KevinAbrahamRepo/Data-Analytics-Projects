@@ -35,20 +35,41 @@ Please review **'Data_Cleansing_Steps'** python file on steps taken to prepare t
 ### Road Traffic Accident Density by Location:
 ![Picture3](https://user-images.githubusercontent.com/15803839/64131248-6a5fdf80-cd95-11e9-8194-0d01354566f9.png)
 
+**Top Locations:**
+Birmingham, London, Leeds, Newcastle
+
 ### Weather Conditions:
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
-*I would *
+*I would imagine that as weather conditions get worse, accidents reported would likely increase. However, the data suggests that most accidents occured when the conditions were perfectly normal especially during peak rush hours as observed earlier obove. Now it can also be argued that fewer cars may have been on the roads when driving conditions were poor. Sadly the dataset does not provide an average count of vehicles on the road for a particular period of time. *
 
-## ROAD TYPES REPORTING MOST ACCIDENTS: 
+## Road Types with Most Accidents Reported (Tree map): 
 ![Picture8](https://user-images.githubusercontent.com/15803839/64207763-466ecd80-ce6b-11e9-908c-c52b625919aa.png)
+
 *Single laned highways reported the majority of accidents followed by dual carriageways*
 
-## OPTIMAL FEATURES SUGGESTED BY RFECV-LOGISTIC REGRESSION:
+## Optiomal Features Suggestion through RFECV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
 
-## MODEL COMPARISION:
+*About 30 features accounted for roughly 95%+ of all variations* 
+
+## Top Features Identified (RFECV-Logistic Regression):
+1. Number of Vehicles Involved/ Casualties
+2. Engine Capacity CC
+3. Speed Limit
+4. Age band of driver
+5. Day of the week – FRIDAY
+6. Daytime afternoon rush (15-19)
+7. Light Conditions – DARK/NIGHT
+8. Location (Latitude/Longitude)
+9. Weather Conditions – Fine with NO High Winds
+10. Age of the Vehicle 
+
+
+## Model Comparison:
 ![Picture6](https://user-images.githubusercontent.com/15803839/64131254-75b30b00-cd95-11e9-9187-b3c02627dfcd.png)
+
+### Target Class Imbalance: 
 
 **Since the majority class constituted for roughly 85% of all records, other metrics such F-Score, Recall, Mathews Correlation Coefficient MCC were used to determine the best model. *Gaussian Naive Bayes* performed marginally better for recall scores than Logistic Regression to show the ratio of correctly predicted positive observations. The descision tree based models (Random Forest, Gradient Boost) performed relatively poorly overall.**
 
