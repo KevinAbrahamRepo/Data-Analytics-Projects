@@ -10,7 +10,8 @@ For this project I extracted tweets for the **106th Grey Cup** Held in Edmonton 
 * Gathered tweets from hashtag for Grey Cup - **#greycup**
 * Gathered tweets with keywords - **Grey Cup, GreyCup**
 
-*(My functions to collect tweets are based on [Alexander's Blog Post](https://galeascience.wordpress.com/2016/03/18/collecting-twitter-data-with-python/))*
+*My functions to collect tweets are based on [Alexander's Blog Post](https://galeascience.wordpress.com/2016/03/18/collecting-twitter-data-with-python/)*
+*Heres another interesting read [on using Twitters streaming API](http://adilmoujahid.com/posts/2014/07/twitter-analytics/)*
 
 
 **NOTE: You will require a developers account for TWITTER to stream and extract tweets live**
@@ -47,7 +48,7 @@ Please review **Data_Cleansing_Functions** python file for common functions used
 ## Gameday Tweets Frequency - R Studio:
 ![Picture3](https://user-images.githubusercontent.com/15803839/63983572-42baff80-ca95-11e9-8fc6-fb72068fe96c.png) 
 
-**Most twitter activity was recorded on November 24 & 25, 2018**
+*Most twitter activity was recorded on **November 24 & 25, 2018** as expected.*
 
 ## Tweet Sentiments - TextBlob Python Library: 
 ![Picture4](https://user-images.githubusercontent.com/15803839/64128118-e1d84380-cd82-11e9-96f6-5ce7967f1a7c.png)
