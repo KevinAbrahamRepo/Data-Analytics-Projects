@@ -26,6 +26,8 @@ EDA was completed in Tableau/MS PowerBI**
 ### Yearly Accident Rates:
 ![11](https://user-images.githubusercontent.com/15803839/64583797-5b15fe80-d360-11e9-926d-b85e95766c47.png)
 
+*Between 2008 - 2009, there is a noticeable spike in the accidents reported. A litte reasearch here suggested that starting 2009, all accidents no matter how minor was required to be reported to the police so as to match the counts represented by hospitals, insurance claims etc. Previously minor accidents were not being reported.*
+
 ### Age Group & Day-Time of Reported Accidents:
 ![Picture1](https://user-images.githubusercontent.com/15803839/64131244-6469fe80-cd95-11e9-96da-4b3ea0a98278.png)
 ![Picture2](https://user-images.githubusercontent.com/15803839/64131246-6764ef00-cd95-11e9-96a6-d323171a5bcc.png)
