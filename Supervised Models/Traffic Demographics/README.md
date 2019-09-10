@@ -1,6 +1,6 @@
 ## ANALYSIS OF ROAD SAFETY AND TRAFFIC DEMOGRAPHICS IN THE UK
 
-For this project, the goal was to help provide recommendations to UK’s department of Transport - to improve road safety policies and prevent accident recurrences where possible. Any implemented suggestions could be tested against the predictive model designed to identify the severity of an accident. 
+For this project, the goal was to help provide recommendations to UK’s department of Transport - to improve road safety policies and prevent accident recurrences where possible. Implemented suggestions could be tested against the predictive model designed to identify the severity of an accident. 
 
 The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) 
 
@@ -21,7 +21,10 @@ Please review **'Data_Cleansing_Steps'** python file on steps taken to prepare t
 
 
 ### EXPLORATORY DATA ANALYSIS 
-**NOTE: EDA was completed in Tableau/MS PowerBI**
+EDA was completed in Tableau/MS PowerBI**
+
+### Yearly Accident Rates:
+![11](https://user-images.githubusercontent.com/15803839/64583797-5b15fe80-d360-11e9-926d-b85e95766c47.png)
 
 ### Age Group & Day-Time of Reported Accidents:
 ![Picture1](https://user-images.githubusercontent.com/15803839/64131244-6469fe80-cd95-11e9-96da-4b3ea0a98278.png)
@@ -35,18 +38,16 @@ Please review **'Data_Cleansing_Steps'** python file on steps taken to prepare t
 ### Road Traffic Accident Density by Location:
 ![Picture3](https://user-images.githubusercontent.com/15803839/64131248-6a5fdf80-cd95-11e9-8194-0d01354566f9.png)
 
-**Top Locations:**
-Birmingham, London, Leeds, Newcastle
+***Top Locations:** Birmingham, London, Leeds, Newcastle*
 
 ### Weather Conditions:
 ![Picture4](https://user-images.githubusercontent.com/15803839/64131249-6df36680-cd95-11e9-9d70-9815beead301.png)
 
-*I would imagine that as weather conditions get worse, accidents reported would likely increase. However, the data suggests that most accidents occured when the conditions were perfectly normal especially during peak rush hours as observed earlier obove. Now it can also be argued that fewer cars may have been on the roads when driving conditions were poor. Sadly the dataset does not provide an average count of vehicles on the road for a particular period of time.*
+*I would imagine that as weather conditions get worse, accidents reported would likely increase. However, the data suggests that most accidents occured when the conditions were perfectly normal especially during peak rush hours as observed earlier obove. Now it can also be argued that fewer cars may have been on the roads when driving conditions were poor. Unfortunately the dataset does not provide a count of vehicles on the road for those periods.*
 
 ### Road Types with Most Accidents Reported (Tree map): 
 ![Picture8](https://user-images.githubusercontent.com/15803839/64207763-466ecd80-ce6b-11e9-908c-c52b625919aa.png)
 
-**For more visuals of analysis, check out the 'EDA_Visuals' folder ! **
 
 ### Optiomal Features Suggestion through RFECV - Logistic Regression:
 ![Picture5](https://user-images.githubusercontent.com/15803839/64131250-70ee5700-cd95-11e9-9c6f-912f40feefc7.png)
