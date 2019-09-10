@@ -31,6 +31,7 @@ EDA was completed in Tableau/MS PowerBI**
 ### Age Group & Day-Time of Reported Accidents:
 ![Picture1](https://user-images.githubusercontent.com/15803839/64131244-6469fe80-cd95-11e9-96da-4b3ea0a98278.png)
 ![Picture2](https://user-images.githubusercontent.com/15803839/64131246-6764ef00-cd95-11e9-96a6-d323171a5bcc.png)
+*Although the majority of accidents occured during afternoon rush hours, the majority of FATAL accidents were reported at night*
 
 ### First Point of Impact: 
 ![Picture7](https://user-images.githubusercontent.com/15803839/64131308-b874e300-cd95-11e9-8d63-5ac83dcf86f7.png)
