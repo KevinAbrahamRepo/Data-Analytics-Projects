@@ -11,6 +11,7 @@ For this project I extracted tweets for the **106th Grey Cup** Held in Edmonton 
 * Gathered tweets with keywords - **Grey Cup, GreyCup**
 
 *My functions to collect tweets are based on [Alexander's Blog Post](https://galeascience.wordpress.com/2016/03/18/collecting-twitter-data-with-python/)*
+
 *Heres another interesting read [on using Twitters streaming API](http://adilmoujahid.com/posts/2014/07/twitter-analytics/)*
 
 
