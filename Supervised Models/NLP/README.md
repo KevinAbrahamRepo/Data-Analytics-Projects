@@ -4,7 +4,7 @@
 For this project I extracted tweets for the **106th Grey Cup** Held in Edmonton on November 25, 2018 and performed sentiment analysis to classify tweets into one of positive, negative or neutral 
 
 ## Python Packages Used: 
-* Scikit-Learn, Numpy, Pandas, Mapboxgl, NLTK, Matplotlib, Tweepy
+* Scikit-Learn, Numpy, Pandas, Mapboxgl, NLTK, Matplotlib, Tweepy, SciPy
 
 ## Used a Two Pronged Approach to Collect Tweets:
 * Gathered tweets from hashtag for Grey Cup - **#greycup**
