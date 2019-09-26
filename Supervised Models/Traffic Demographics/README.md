@@ -5,7 +5,7 @@ For this project, the goal was to help provide recommendations to UK’s departm
 The original dataset was retreived from [Kaggle - UK Traffic Dataset](https://www.kaggle.com/tsiaras/uk-road-safety-accidents-and-vehicles#Accident_Information.csv) 
 
 ### PYTHON PACKAGES USED:
-* Scikit-learn, Numpy, Pandas, imblearn (imbalanced-learn), Seaborn, Matplotlib
+* Scikit-learn, Numpy, Pandas, imblearn (imbalanced-learn), Seaborn, Matplotlib, SciPy
 
 ### PRIMARY ANALYTIC GOALS: 
 1. Identify common factors responsible for higher accident rates through various feature engineering techniques
