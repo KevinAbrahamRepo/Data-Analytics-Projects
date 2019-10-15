@@ -66,6 +66,6 @@ There are two versions of the code I worked on simultanously that I hope to even
   
 * **Part 2** includes some general exploratory analysis. 
 
-**NOTE: All libaries used have been listed in each of the python code files in detail. Have a go at it!**  
+**NOTE: All libaries used have been listed in each of the python code files in detail**  
 
 
