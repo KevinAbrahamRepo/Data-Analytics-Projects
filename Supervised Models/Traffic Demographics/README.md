@@ -1,4 +1,4 @@
-## ANALYSIS OF ROAD SAFETY AND TRAFFIC DEMOGRAPHICS IN THE UNITED KINGDOM (UK)
+## ANALYSIS OF ROAD SAFETY AND TRAFFIC DEMOGRAPHICS IN THE UK
 
 For this project, the goal was to help provide recommendations to UK’s department of Transport - to improve road safety policies and prevent accident recurrences where possible. Implemented suggestions could be tested against the predictive model designed to identify the severity of an accident. 
 
